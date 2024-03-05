@@ -75,7 +75,7 @@ function AppSider() {
                                 <span>{item.title}</span>
                                 <span>
                                       {item.withTag && (
-                                          <Tag color={asset.grow ? 'green' : 'red'}>
+                                          <Tag style={{marginRight: '0.5rem'}} color={asset.grow ? 'green' : 'red'}>
                                               {asset.growPercent.toFixed(2)}%
                                           </Tag>
                                       )}
